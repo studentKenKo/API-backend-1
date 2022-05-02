@@ -9,7 +9,7 @@ exports.validateArticle = async (ctx, next) => {
     allowUnknownAttributes: false
   }
   const body = ctx.request.body
-
+  
   try {
     v.validate(body, schema, validationOptions)
     await next()
