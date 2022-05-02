@@ -1,6 +1,6 @@
 exports.configMongo = {
-  user: 'bsccom',
-  pwd:  'abc123123',
-  host: 'assessmentcluster.fbg7m.mongodb.net',
-  dbname: 'blog'
+  user: 'admin',
+  pwd:  'test123',
+  host: 'cluster0.eyzqs.mongodb.net',
+  dbname: 'SHAPE_API'
 }

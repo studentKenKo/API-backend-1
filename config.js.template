@@ -1,0 +1,6 @@
+exports.configMongo = {
+  user: 'xxx',
+  pwd:  'xxx',
+  host: 'xxx',
+  dbname: 'xxx'
+}
