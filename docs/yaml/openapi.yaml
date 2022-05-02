@@ -1,8 +1,8 @@
 openapi: 3.0.0
 info:
   version: 1.0.0
-  title: Back End Demonstration API
-  description: A c API.
+  title: Canine Shelter API
+  description: Canine Shelter API.
   contact:
     name: KenKo
     email: 217014330@stu.vtc.edu.hk
