@@ -8,7 +8,7 @@ const router = Router({prefix: '/api/v1/articles'})
 router.get('/', getAll)
 router.post('/', bodyParser(), validateArticle, createArticle)
 router.get('/:id([0-9]{1,})', getById)
-router.put('/:id([0-9]{1,})', updateArticle)
+router.put('/:id([0-9]{1,})',bodyParser(), validateArticle, updateArticle)
 router.del('/:id([0-9]{1,})', deleteArticle)
 
 async function getAll(ctx, next){  

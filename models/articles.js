@@ -2,6 +2,9 @@
 * This API repository to hold the DB access logic
 *
 */
+
+
+
 const db = require('../helpers/database')
 
 //get a single article by its id  

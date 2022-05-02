@@ -1,0 +1,13 @@
+{
+"source": {
+"includePattern": ".+\\.js(doc|x)?$", "include": ["."],
+"exclude": ["node_modules"]
+  },
+  "recurseDepth": 10,
+  "opts": {
+"destination": "./docs/jsdocs", "recurse": true
+// Only process file ending in .js, .jsdoc or .jsx // Check all folders.
+// Be gone, node_modules.
+// Only go 10 levels deep.
+// Where I want the docs to be generated. // Same as using -r or --recurse
+} }

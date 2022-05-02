@@ -17,7 +17,7 @@ ac.grant('admin')
   .execute('delete')
   .on('user')
 
-exports.readAll = (requester) =>   ac.can(requester.role).execute('read').sync().on('users')
+exports.readAll = (requester) => ac.can(requester.role).execute('read').sync().on('users')
 
 
 exports.read = (requester, data) => ac.can(requester.role).context({requester:requester.ID, owner:data.ID}).execute('read').sync().on('user')

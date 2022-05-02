@@ -1,3 +1,3 @@
-# SHAPE Web API Develipment
+# SHAPE Web API Development
 # Portfolio
 # API-backend

@@ -2,7 +2,27 @@
 *Run SQL in this API
 * define an async utility function to get a connection
 * run an SQL query then end the connection
+*
+* A module to run SQL queries on postpreSQL on behalf of the API models. * @module helpers/database
+* @author Ko Long
+* @see models/* for the models that require this module
 */
+
+/**
+* Run an SQL query against the DB, end the connection and return the result.
+* @param {string} Query SQL query string in sqljs format
+* @param {array|number|string} values The values to inject in to the query string. * @returns {object} mysqljs results object containing indexable rows
+* @throws {DatabaseException} Custom exception for DB query failures
+*/
+
+/**
+ * A custom error constructor to re-raise DB errors in a sanitised way.
+ * @class
+ * @param {string} message - the error message
+ * @param {number|string} code - the original error's error code
+ * @param {string} id - a UUID identifier for the error instanced
+ */
+
 const {Sequelize, QueryTypes} = require('sequelize')  
 const info = require('../config')
 
