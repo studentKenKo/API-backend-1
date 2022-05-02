@@ -1,0 +1,26 @@
+{
+  "name": "api-backend-1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/studentKenKo/API-backend-1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/studentKenKo/API-backend-1/issues"
+  },
+  "homepage": "https://github.com/studentKenKo/API-backend-1#readme",
+  "dependencies": {
+    "koa": "^2.13.4",
+    "koa-router": "^10.1.1",
+    "koa-static-router": "^1.5.0",
+    "mongodb": "^4.5.0"
+  }
+}
