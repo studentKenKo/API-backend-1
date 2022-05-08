@@ -15,6 +15,7 @@ async function getAll(ctx, next){
   let articles = await model.getAll()
   if (articles.length) {
     ctx.body = articles
+    console.log(articles)
   }
 }  
 
@@ -50,6 +51,12 @@ async function updateArticle(ctx) {
 
 async function deleteArticle(ctx) {
   // TODO delete an existing article
+   const body = ctx.request.body
+  let result = await model.DeleteById(body)
+  if (result) {
+    ctx.status = 201
+    ctx.body = result
+  }
 }
 
 /*

@@ -1,7 +1,7 @@
 /**
  * A module to run JSON Schema based validation on request/response data.
  * @module controllers/validation
- * @author Ko
+ * @author Ko Long
  * @see schemas/* for JSON Schema definition files
  */
 
