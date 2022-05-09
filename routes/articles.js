@@ -59,6 +59,7 @@ async function deleteArticle(ctx) {
   }
 }
 
+module.exports = router
 /*
 function updateArticle(cnx, next){  
   let id = cnx.params.id
@@ -83,4 +84,3 @@ function deleteArticle(cnx, next){
 }  
 
 */
-module.exports = router
