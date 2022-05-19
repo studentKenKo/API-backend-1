@@ -1,7 +1,7 @@
 module.exports = 
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
-  "id": "/doginfo",
+  "id": "/dogid",
   "title": " dog information",
   "description": "A dog information in the canine shelter",
   "type": "object",

@@ -1,3 +1,5 @@
+/**
+
 module.exports = 
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
@@ -34,3 +36,5 @@ module.exports =
   },
   "required": ["title", "allText", "authorID"]
 }
+
+*/

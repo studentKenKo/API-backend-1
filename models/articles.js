@@ -33,6 +33,7 @@ exports.add = async function add (article) {
   parm=parm.slice(0,-1)
   let query = `INSERT INTO articles (${keys}) VALUES (${parm})`
   try{
+    console.log(parm)
     await db.run_query(query, values)  
     return {"status": 201}
   } catch(error) {
@@ -56,20 +57,9 @@ function updateArticle(cnx, next){
 }  
 
 
-//delete a sing le article by its id  
-exports.updateArticles = async function deleteArticle(cnx, next){  
-  let id = cnx.params.id
-  if ((id < articles.length) && (id > 0)) {
-    articles.slice(id-1, 1)
-    cnx.status = 201
-    cnx.body = articles
-  } else {
-    cnx.status = 404
-  } 
-}  
+//delete a single article by its id  
 
 
-//Delete 
 exports.DeleteById = async function DeleteById (id) {
   let query = 'DELETE FROM articles WHERE id = ?'
   let values = [id]

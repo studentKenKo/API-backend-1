@@ -1,13 +1,11 @@
 exports.config = {
   host: "satao.db.elephantsql.com",
   port: 5432,
-  user: "osbvlkrc",
-  password: "tHLEG_dA1tIMnTt7dl670wp-b6JiVA3n",
-  database: "osbvlkrc",
+  user: "jglkqsbr",
+  password: "D-0rKJ9ny62f2H8HjGJiGC2B-r40aPyQ",
+  database: "jglkqsbr",
   connection_limit: 100
 }
-
-
 
 /* exports.configMongo = {
   user: 'admin',

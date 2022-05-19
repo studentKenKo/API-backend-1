@@ -19,17 +19,22 @@
   "homepage": "https://github.com/studentKenKo/API-backend-1#readme",
   "dependencies": {
     "@koa/cors": "^3.3.0",
+    "crypto-js": "^4.1.1",
+    "got": "^12.0.4",
     "jsonschema": "^1.4.0",
     "koa": "^2.13.4",
     "koa-bodyparser": "^4.3.0",
     "koa-passport": "^4.1.4",
     "koa-router": "^10.1.1",
     "koa-static-router": "^1.5.0",
-    "mongodb": "^4.5.0",
+    "oauth-1.0a": "^2.2.6",
     "passport-http": "^0.3.0",
     "pg": "^8.7.3",
     "pg-hstore": "^2.3.4",
+    "qs": "^6.10.3",
     "role-acl": "^4.5.4",
-    "sequelize": "^6.19.0"
+    "sequelize": "^6.19.0",
+    "twitter-api-v2": "^1.12.0",
+    "twitter-lite": "^1.1.0"
   }
 }
